@@ -1,9 +1,18 @@
  /* Estilos para el encabezado */
  header {
-    background-color: #4CAF50;
+    background-color: whitesmoke;
     padding: 20px;
     text-align: center;
-    color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header h1, nav a {
+    border: 3px solid black;
+    padding: 10px;
 }
 
 /* Estilos para la barra de navegación */
@@ -15,7 +24,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffeb3b;
+    color: #1f90bd;
 }
 
 /* Estilos para la sección principal */
